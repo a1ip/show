@@ -1,0 +1,9 @@
+---
+layout: slideshow
+---
+
+<ul class="slideshow">
+{% for i in (1..site.slides) %}
+  <li>Слайд&nbsp;№{{ i }}</li>
+{% endfor %}
+</ul>
