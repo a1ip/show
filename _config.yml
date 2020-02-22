@@ -2,8 +2,8 @@
 #url: "http://a1ip.github.io" # the base hostname & protocol for your site
 title: Христианское слайдшоу
 description: Христианское слайдшоу на Unsplash Source API
-slides: 5
-delay: 30 # animation time in seconds
+#slides: 5
+#delay: 30 # animation time in seconds
 
 compress_html:
   clippings: all
