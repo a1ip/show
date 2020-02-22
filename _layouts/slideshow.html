@@ -2,7 +2,7 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <title>{% if page.title %}{{ page.title | escape }}
       {% else %}{{ site.title | escape }}{% endif %}</title>
@@ -12,7 +12,8 @@ layout: compress
     <link rel="stylesheet" href="{{ '/assets/css/show.css?v=' 
     | append: site.github.build_revision | relative_url }}">
   </head>
-  <body>
+  <body onLoad="changeImage()">
+    <div id="pic" onClick="changeImage()"></div>
     {{ content }}
   </body>
 </html>
