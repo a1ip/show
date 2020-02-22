@@ -1,7 +1,7 @@
 # baseurl: /slideshow # the subpath of your site, e.g. /blog
 #url: "http://a1ip.github.io" # the base hostname & protocol for your site
-title: Христианское слайдшоу
-description: Христианское слайдшоу на Unsplash Source API
+title: Christian slideshow
+description: Christian slideshow powered by Unsplash Source API
 #slides: 5
 #delay: 30 # animation time in seconds
 
